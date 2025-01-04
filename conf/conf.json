@@ -1,0 +1,27 @@
+{
+  "EC_Policy": {
+    "replication": {
+      "replication-factor": 2,
+      "block-size": 8388608
+    },
+    "RS": {
+      "n": 16,
+      "k": 8
+    },
+    "ZJC-RS": {
+      "n": 8,
+      "RS-settings": {
+        "n": 24,
+        "k": 16
+      }
+    },
+    "ZJC-Xor": {
+      "n": 8
+    },
+    "LRC": {
+      "k": 8,
+      "l": 4,
+      "r": 4
+    }
+  }
+}
